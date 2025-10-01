@@ -169,6 +169,10 @@ public class Main {
     }
 
     public static void numerosPrimos() {
+        System.out.println("=================================");
+        System.out.println("Ejercicio 3 - Numeros primos");
+        System.out.println("=================================");
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Ingresa un número: ");
@@ -195,6 +199,10 @@ public class Main {
     }
 
     public static void serieFibonacci() {
+        System.out.println("=================================");
+        System.out.println("Ejercicio 4 - Serie Fibonacci");
+        System.out.println("=================================");
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("¿Cuántos términos de la serie Fibonacci deseas ver? ");
@@ -213,6 +221,10 @@ public class Main {
     }
 
     public static void factorial() {
+        System.out.println("=================================");
+        System.out.println("Ejercicio 5 - Factorial");
+        System.out.println("=================================");
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Ingresa un número para calcular su factorial: ");
@@ -231,6 +243,10 @@ public class Main {
     }
 
     public static void estadisticaCalificaciones() {
+        System.out.println("=================================");
+        System.out.println("Ejercicio 6 - Estadistica de calificaciones");
+        System.out.println("=================================");
+
         Scanner entrada = new Scanner(System.in);
         String nombre;
         System.out.print("ingrese el nombre del estudiante: ");
@@ -253,6 +269,10 @@ public class Main {
     }
 
     public static void juegoAdivinarNumero() {
+        System.out.println("=================================");
+        System.out.println("Ejercicio 7 - Juego adivinaar numero");
+        System.out.println("=================================");
+
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
@@ -279,6 +299,10 @@ public class Main {
     }
 
     public static void sistemaInventario() {
+        System.out.println("=================================");
+        System.out.println("Ejercicio 8 - Sistema inventario");
+        System.out.println("=================================");
+
         Scanner scanner = new Scanner(System.in);
 
         ArrayList<String> nombres = new ArrayList<>();
